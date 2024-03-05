@@ -1,0 +1,42 @@
+.loginDiv{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 1px solid lightgray; */
+  /* height: 350px;
+  width: 420px; */
+  /* position: fixed;
+  top: 110px;
+  left: 35%; */
+  background-color: white;
+  /* border-radius: 10px; */
+}
+/* #loginBtn{
+  margin-top: 10%;
+  background-color: rgb(121, 218, 218);
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  font-weight: bold;
+} */
+.mLogin{
+  /* width: 100px; */
+  font-weight: lighter;
+  /* border: 1px solid lightgray; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#closeBtn{
+  /* position: absolute;
+  right: 3px;
+  top: 3px; */
+  border: none;
+  background-color: inherit;
+  color: red;
+  font-weight: bold;
+}
+#signIn{
+  /* margin-top: 25%;
+  margin-left: 24%; */
+}

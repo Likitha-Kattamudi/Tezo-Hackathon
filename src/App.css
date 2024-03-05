@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App{
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 10px 0 10px;
+}
+#backBtn{
+  background-color: inherit;
+  /* display: flex; */
+  border: none;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  /* font-size: x-large; */
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
-.App-link {
-  color: #61dafb;
+h4{
+    font-size: calc(10px + 2vmin);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+.loginapp{
+  /* border: 2px solid white; */
+  /* width: 100px; */
+}
+#loginoutBtn{
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.beforPopup{
+  text-align: center;
+  margin-top: 20px;
+}
+#signInn{
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#signInn:hover{
+  color: blue;
 }

@@ -1,0 +1,22 @@
+.registrationDIv{
+  /* text-align: ce; */
+  /* display: flex;
+  justify-content: center; */
+  /* border: 1px solid black; */
+  font-size: medium;
+}
+.form{
+  /* text-align: center; */
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 300px;
+  margin-left: 35%;
+}
+#inputss{
+  width: 300px;
+}
+#dropDowns{
+  width: 300px;
+  height: 30px;
+}
